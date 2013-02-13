@@ -75,7 +75,7 @@ while i < len(lines):
 	words.append(item)
 	i += 3
 
-practice_count = 10
+practice_count = 3 * len(words)
 
 while(practice_count > 0):
 	item = pick_word()
