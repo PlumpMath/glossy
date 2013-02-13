@@ -12,17 +12,10 @@ question_languages = [
 	"sve",
 ]
 
-words = [
-	{ "isl": "ég", "sve": "jag" },
-	{ "isl": "þú", "sve": "du" },
-	{ "isl": "við", "sve": "vi" },
-]
-
-# Give every item a score
-[item.setdefault("score", 0) for item in words]
-
 def get_hardest_words():
-	return words
+	sorted_words = sorted(words, key = lambda(item): item["score"])
+	word_count = 1 + int(0.25 * len(sorted_words))
+	return sorted_words[:word_count]
 
 def pick_word():
 	return random.choice(get_hardest_words())
@@ -44,7 +37,45 @@ def analyze(guess, item, language):
 		item["score"] -= 1
 		print CONSOLE_COLOR_ERROR + correct + CONSOLE_COLOR_NORMAL
 
-practice_count = 3
+def print_item(item):
+	score = item["score"]
+	print str(score) + "\t" + item["isl"] + " = " + item["sve"]
+
+def print_result():
+	print "Result:"
+	[print_item(item) for item in sorted(words, key = lambda(item): item["score"])]
+
+words = []
+
+word_list_file = open("word_list.txt", "r")
+lines = word_list_file.readlines()
+word_list_file.close()
+
+i = 0
+while i < len(lines):
+	try:
+		isl = lines[i].strip()
+		sve = lines[i + 1].strip()
+		empty = lines[i + 2].strip()
+	except:
+		pass
+
+	if isl == "":
+		print "Error reading file on line " + str(i)
+	elif sve == "":
+		print "Error reading file on line " + str(i + 1)
+	elif empty != "":
+		print "Error reading file on line " + str(i + 2)
+
+	item = {
+		"isl": isl, 
+		"sve": sve, 
+		"score": 0
+	}
+	words.append(item)
+	i += 3
+
+practice_count = 10
 
 while(practice_count > 0):
 	item = pick_word()
@@ -55,10 +86,4 @@ while(practice_count > 0):
 	analyze(guess, item, language)
 	practice_count -= 1
 
-def print_item(item):
-	score = item["score"]
-	print item["isl"] + "/" + item["sve"] + ", score: " + str(score)
-
-print "Result:"
-[print_item(item) for item in words]
-
+print_result()
