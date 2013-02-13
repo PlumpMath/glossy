@@ -1,6 +1,7 @@
 import random
 import sys
 
+CONSOLE_COLOR_CORRECT = "\033[92m"
 CONSOLE_COLOR_ERROR = "\033[91m"
 CONSOLE_COLOR_NORMAL = "\033[0m"
 CONSOLE_COLOR_SUBTLE = '\033[94m'
@@ -32,12 +33,20 @@ def other_language(language):
     }[language]
 
 def analyze(guess, item, language):
-    correct = item[other_language(language)]
+    full_correct = item[other_language(language)]
+
+    paren_pos = full_correct.find("(")
+    if paren_pos > -1:
+        correct = full_correct[0:paren_pos].strip()
+    else:
+        correct = full_correct
+
     if guess == correct:
         item["score"] += 1
+        print CONSOLE_COLOR_CORRECT + full_correct + CONSOLE_COLOR_NORMAL
     else:
         item["score"] -= 1
-        print CONSOLE_COLOR_ERROR + correct + CONSOLE_COLOR_NORMAL
+        print CONSOLE_COLOR_ERROR + full_correct + CONSOLE_COLOR_NORMAL
 
 def print_item(item):
     score = item["score"]
@@ -55,6 +64,9 @@ def read_words_from_file(filename):
 
     i = 0
     while i < len(lines):
+        word_a = ""
+        word_b = ""
+        empty = ""
         try:
             word_a = lines[i].strip()
             word_b = lines[i + 1].strip()
@@ -100,6 +112,6 @@ def maybe_get(xs, index, default):
 # Go!
 filename = maybe_get(sys.argv, 1, "word_list.txt")
 ws = read_words_from_file(filename)
-practice_count = 5 # * len(ws)
+practice_count = 3 * len(ws)
 practice_loop(ws, practice_count)
 print_result(ws)
