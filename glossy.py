@@ -1,13 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-
 import random
 import sys
 
 CONSOLE_COLOR_ERROR = "\033[91m"
 CONSOLE_COLOR_NORMAL = "\033[0m"
-CONSOLE_COLOR_LANG_A = '\033[94m'
-CONSOLE_COLOR_LANG_B = '\033[92m'
+CONSOLE_COLOR_SUBTLE = '\033[94m'
 
 LANG_A = "isl"
 LANG_B = "sve"
@@ -89,7 +85,7 @@ def practice_loop(words, count):
 		item = pick_word(words)
 		language = pick_language()
 		word = item[language]
-		sys.stdout.write(CONSOLE_COLOR_LANG_A + "[" + language + "] " + CONSOLE_COLOR_NORMAL + word + " = ")
+		sys.stdout.write(CONSOLE_COLOR_SUBTLE + "[" + language + "] " + CONSOLE_COLOR_NORMAL + word + " = ")
 		guess = raw_input("")
 		analyze(guess, item, language)
 		count -= 1
