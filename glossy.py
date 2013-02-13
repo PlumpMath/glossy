@@ -94,10 +94,16 @@ def practice_loop(words, count):
 		analyze(guess, item, language)
 		count -= 1
 
+def maybe_get(xs, index, default):
+	if index < len(xs):
+		return xs[index]
+	else:
+		return default
 
 
 # Go!
-ws = read_words_from_file("word_list.txt")
+filename = maybe_get(sys.argv, 1, "word_list.txt")
+ws = read_words_from_file(filename)
 practice_count = 5 # * len(ws)
 practice_loop(ws, practice_count)
 print_result(ws)
