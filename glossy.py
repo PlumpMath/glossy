@@ -7,9 +7,12 @@ import sys
 CONSOLE_COLOR_ERROR = "\033[91m"
 CONSOLE_COLOR_NORMAL = "\033[0m"
 
+LANG_A = "isl"
+LANG_B = "sve"
+
 question_languages = [
-	"isl", 
-	"sve",
+	LANG_A,
+	LANG_B,
 ]
 
 def get_hardest_words():
@@ -25,8 +28,8 @@ def pick_language():
 
 def other_language(language):
 	return {
-		"sve": "isl",
-		"isl": "sve",
+		LANG_A: LANG_B,
+		LANG_B: LANG_A,
 	}[language]
 
 def analyze(guess, item, language):
@@ -39,7 +42,7 @@ def analyze(guess, item, language):
 
 def print_item(item):
 	score = item["score"]
-	print str(score) + "\t" + item["isl"] + " = " + item["sve"]
+	print str(score) + "\t" + item[LANG_A] + " = " + item[LANG_B]
 
 def print_result():
 	print "Result:"
@@ -54,22 +57,22 @@ word_list_file.close()
 i = 0
 while i < len(lines):
 	try:
-		isl = lines[i].strip()
-		sve = lines[i + 1].strip()
+		word_a = lines[i].strip()
+		word_b = lines[i + 1].strip()
 		empty = lines[i + 2].strip()
 	except:
 		pass
 
-	if isl == "":
+	if word_a == "":
 		print "Error reading file on line " + str(i)
-	elif sve == "":
+	elif word_b == "":
 		print "Error reading file on line " + str(i + 1)
 	elif empty != "":
 		print "Error reading file on line " + str(i + 2)
 
 	item = {
-		"isl": isl, 
-		"sve": sve, 
+		LANG_A: word_a,
+		LANG_B: word_b,
 		"score": 0
 	}
 	words.append(item)
