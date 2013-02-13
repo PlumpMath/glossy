@@ -12,18 +12,19 @@ CONSOLE_COLOR_LANG_B = '\033[92m'
 LANG_A = "isl"
 LANG_B = "sve"
 
+# Remove languages from this list to not get questioned in that language (to practice only one way)
 question_languages = [
 	LANG_A,
 	LANG_B,
 ]
 
-def get_hardest_words():
+def get_hardest_words(words):
 	sorted_words = sorted(words, key = lambda(item): item["score"])
 	word_count = 1 + int(0.25 * len(sorted_words))
 	return sorted_words[:word_count]
 
-def pick_word():
-	return random.choice(get_hardest_words())
+def pick_word(words):
+	return random.choice(get_hardest_words(words))
 
 def pick_language():
 	return random.choice(question_languages)
@@ -46,7 +47,7 @@ def print_item(item):
 	score = item["score"]
 	print str(score) + "\t" + item[LANG_A] + " = " + item[LANG_B]
 
-def print_result():
+def print_result(words):
 	print "Result:"
 	[print_item(item) for item in sorted(words, key = lambda(item): item["score"])]
 
@@ -83,9 +84,9 @@ def read_words_from_file(filename):
 
 	return words
 
-def practice_loop(count):
+def practice_loop(words, count):
 	while(count > 0):
-		item = pick_word()
+		item = pick_word(words)
 		language = pick_language()
 		word = item[language]
 		sys.stdout.write(CONSOLE_COLOR_LANG_A + "[" + language + "] " + CONSOLE_COLOR_NORMAL + word + " = ")
@@ -96,7 +97,7 @@ def practice_loop(count):
 
 
 # Go!
-words = read_words_from_file("word_list.txt")
-practice_count = 1 * len(words)
-practice_loop(practice_count)
-print_result()
+ws = read_words_from_file("word_list.txt")
+practice_count = 5 # * len(ws)
+practice_loop(ws, practice_count)
+print_result(ws)
