@@ -1,0 +1,113 @@
+ég
+jag
+
+þú
+du
+
+við
+vi
+
+mín
+min
+
+þín
+din
+
+okkar
+våran
+
+ykkar
+eran
+
+mig
+mig (ack)
+
+mér
+mig (dat)
+
+okkur
+oss (ack & dat)
+
+þig
+dig (ack)
+
+þér
+dig (dat)
+
+þið
+ni
+
+ykkur
+er (ack & dat)
+
+hann
+han
+
+hann
+honom (ack)
+
+honum
+honom (dat)
+
+hans
+hans
+
+þeir
+de (mask)
+
+þá
+dem (mask ack)
+
+þeim
+dem (mask dat)
+
+þeirra
+deras (mask)
+
+hún
+hon
+
+hana
+henne (ack)
+
+henni
+henne (dat)
+
+hennar
+hennes
+
+þær
+de (fem)
+
+þær
+dem (fem ack)
+
+þeim
+dem (fem dat)
+
+þeirra
+deras (fem)
+
+það
+den
+
+það
+den (ack)
+
+því
+den (dat)
+
+þess
+dess
+
+þau
+de (neutr)
+
+þau
+dem (neutr ack)
+
+þeim
+dem (neutr dat)
+
+þeirra
+deras (neutr)
