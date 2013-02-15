@@ -1,0 +1,159 @@
+ást (fem)
+kärlek
+
+einhver
+någon
+
+titill (mask)
+titel
+
+halda (infinitiv)
+hålla
+
+held (1 pers sing)
+håller (1 pers sing)
+
+sæma (infinitiv)
+hedra
+
+sæmi (1 pers sing)
+hedrar (1 pers sing)
+
+búa (infinitiv)
+bo
+
+bý (1 pers sing)
+bor (1 pers sing)
+
+kveðja (infinitiv)
+ta avsked
+
+kveð (1 pers sing)
+tar avsked (1 pers sing)
+
+afgreiða (infinitiv)
+klara av
+
+afgreiði (1 pers sing)
+klarar av (1 pers sing)
+
+mál (neutr)
+måltid
+
+klára (infinitiv)
+klara
+
+klára (1 pers sing)
+klara (1 pers sing)
+
+dæmi (neutr)
+exempel
+
+þykja (infinitiv)
+tycka
+
+þyki (1 pers sing)
+tycker (1 pers sing)
+
+blekkja (infinitiv)
+lura
+
+blekki (1 pers sing)
+lurar (1 pers sing)
+
+falla (infinitiv)
+falla
+
+fell (1 pers sing)
+faller (1 pers sing)
+
+fyrir
+för
+
+mega (infinitiv)
+få
+
+má (1 pers sing)
+får (1 pers sing)
+
+alltaf
+alltid
+
+þekkja (infinitiv)
+känna igen
+
+þekki (1 pers sing)
+känner igen (1 pers sing)
+
+hnjáliður (mask)
+knäled
+
+veikur
+sjuk
+
+hætta (infinitiv)
+sluta
+
+hætti (1 pers sing)
+slutar (1 pers sing)
+
+fela (infinitiv)
+gömma
+
+fel (1 pers sing)
+gömmer (1 pers sing)
+
+hjarta (neutr)
+hjärta
+
+hugur (mask)
+sinne
+
+játa (infinitiv)
+bekräfta
+
+játa (1 pers sing)
+bekräftar (1 pers sing)
+
+fölur
+blek
+
+halda (infinitiv)
+tro
+
+held (1 pers sing)
+tror
+
+slíkt
+sådan
+
+uppræta (infinitiv)
+utrota
+
+uppræti (1 pers sing)
+utrotar (1 pers sing)
+
+orsök (fem)
+orsak
+
+vandi (mask)
+problem
+
+unaðslegur
+underbar
+
+fyrstur
+först
+
+fyrr
+förr
+
+fara (infinitiv)
+fara
+
+fer (1 pers sing)
+far (1 pers sing)
+
+fjandans
+satans
+
