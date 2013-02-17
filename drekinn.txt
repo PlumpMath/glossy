@@ -14,7 +14,7 @@ skógur (mask)
 skog
 
 lítið
-litet
+liten
 
 hús (neutr)
 hus
