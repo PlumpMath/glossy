@@ -1,0 +1,110 @@
+kafli (mask)
+kapitel
+
+langt
+långt
+
+inni
+inne
+
+djúpur
+djup
+
+skógur (mask)
+skog
+
+lítið
+litet
+
+hús (neutr)
+hus
+
+brúnn
+brun
+
+með
+med
+
+rauður
+röd
+
+þak (neutr)
+tak
+
+og
+och
+
+hvítur
+vit
+
+gluggakarmur (mask)
+fönsterkarm
+
+býr (3 pers sing)
+bor (3 pers sing)
+
+grænn
+grön
+
+dreki (mask)
+drake
+
+þar
+där
+
+heima
+hemma
+
+foreldri (neutr)
+förälder
+
+sínn
+sin
+
+pabbi (mask)
+pappa
+
+stuttur
+kort
+
+feitur
+fet
+
+mjór
+smal
+
+langur
+lång
+
+eitt
+ett
+
+það
+det
+
+land (neutr)
+land
+
+sem
+som
+
+stór
+stor
+
+bæði
+både
+
+breiður
+bred
+
+hár
+hög
+
+fjall (neutr sing)
+fjäll (neutr sing)
+
+djúpur
+djup
+
+dalur
+dal
