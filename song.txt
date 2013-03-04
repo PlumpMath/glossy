@@ -151,3 +151,48 @@ far (1 pers sing)
 fjandans
 satans
 
+þvæla (fem)
+strunt
+
+þráast (infinitiv)
+trilskas
+
+lygi (fem)
+lögn
+
+samt
+ändå
+
+svífa (infinitiv)
+sväva
+
+svíf (1 pers sing)
+svävar (1 pers sing)
+
+bleikur
+rosa
+
+skýi
+sky
+
+linna (infinitiv)
+upphöra
+
+linni (1 pers sing)
+upphör (1 pers sing)
+
+leyfa (infinitiv)
+tillåta
+
+leyfi (1 pers sing)
+tillåter (1 pers sing)
+
+hversu
+hur (om mängd)
+
+nógur
+tillräcklig
+
+enginn
+ingen
+

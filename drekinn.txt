@@ -108,3 +108,90 @@ djup
 
 dalur
 dal
+
+eldhús
+kök
+
+þar
+där
+
+borða (infinitiv)
+äta (infinitiv)
+
+mikið
+mycket
+
+af
+av
+
+svolítið
+lite
+
+minna (infinitiv)
+likna (infinitiv)
+
+matur
+mat
+
+minnst
+minst
+
+nema
+utom
+
+þegar
+redan
+
+laga
+laga
+
+grautur (mask)
+gröt
+
+þá
+då
+
+diskur (mask)
+tallrik
+
+fjórir
+fyra
+
+stóll (mask)
+stol
+
+breiður
+bred
+
+blár
+blå
+
+baki (neutr)
+rygg
+
+sitja (infinitiv)
+sitta (infinitiv)
+
+sit (1 pers sing)
+sitter (1 pers sing)
+
+fjórði
+fjärde
+
+gestur (mask)
+gäst
+
+sem
+som
+
+koma (infinitiv)
+komma (infinitiv)
+
+kem (1 pers sing)
+kommer (1 pers sing)
+
+drekka (infinitiv)
+dricka (infinitiv)
+
+kaffi (neutr)
+kaffe
