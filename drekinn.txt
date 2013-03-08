@@ -195,3 +195,51 @@ dricka (infinitiv)
 
 kaffi (neutr)
 kaffe
+
+svefnherbergi (neutr)
+sovrum
+
+þrír
+tre
+
+rúm (neutr)
+säng
+
+gafl (mask)
+gavel
+
+þunnur
+tunn
+
+sæng (fem)
+täcke
+
+mjúkur
+mjuk
+
+snemma
+tidigt
+
+morgunn (mask)
+morgon
+
+skína (infinitiv)
+skina (infinitiv)
+
+sól (fem)
+sol
+
+gluggi (mask)
+fönster
+
+klæða (infinitiv)
+klä på sig
+
+næst
+näst
+
+seint
+sent
+
+hrjóta (infinitiv)
+snarka (infinitiv)
