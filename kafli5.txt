@@ -1,0 +1,89 @@
+vinna
+arbeta
+
+skrifstofa (fem)
+kontor
+
+eða
+eller
+
+bréf (neutr)
+brev
+
+sími (mask)
+telefon
+
+skjal (neutr)
+dokument
+
+lesa
+läsa
+
+nefnilega
+nämligen
+
+stjórnmál (neutr pl)
+politik
+
+krati (mask)
+socialdemokrat
+
+þýða
+betyda
+
+líka
+också
+
+svo
+så
+
+svólitill
+lite
+
+íhald (neutr)
+konservatism
+
+halda
+hålla
+
+fundur (mask)
+möte
+
+stundum
+ibland
+
+æstur
+upprörd
+
+reiður
+arg
+
+blása
+blåsa
+
+eldur (mask)
+eld
+
+þess vegna
+på grund av det
+
+kalla
+ropa
+
+alltaf
+alltid
+
+slökkvilið (neutr)
+brandkår
+
+þegar
+när
+
+líka
+också
+
+efni (neutr)
+material
+
+eldtraustur
+brandsäker
